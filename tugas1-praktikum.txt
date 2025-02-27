@@ -1,0 +1,39 @@
+Tugas
+
+1.Jelaskan apa yang dimaksud dengan dokumen root ?
+
+Jawaban: Dokumen root adalah bagian utama atau pusat dari sebuah sistem file, dokumen markup, atau database yang menjadi dasar bagi keseluruhan struktur. Maknanya bisa berbeda tergantung pada konteks penggunaannya.
+
+2.Pada apache web server, apakah dokumen root harus terletak dalam direktori
+C:\xampp\htdocs ? Jelaskan jawaban anda
+
+Jawaban: Dokumen root tidak harus di C:\xampp\htdocs.karena kita bisa mengubahnya sesuai kebutuhan dengan mengedit konfigurasi Apache.
+
+3.Jelaskan apa yang dimaksud dengan perintah git : init, clone, remote, add, commit, push
+dan checkout
+
+Jawaban:
+-git init → digunakan untuk membuat repository Git baru dalam suatu direktori. Ini akan membuat subdirektori tersembunyi bernama .git, yang berisi semua metadata yang diperlukan untuk melacak perubahan dalam proyek tersebut. 
+-git clone → digunakan untuk menyalin repository Git yang sudah ada ke dalam komputer lokal. Biasanya digunakan untuk mengunduh kode dari repository remote, seperti GitHub atau GitLab.
+-git remote → digunakan untuk menghubungkan repository lokal dengan repository remote.
+-git add → digunakan untuk menandai file yang ingin disertakan dalam commit.
+-git commit → digunakan untuk menyimpan perubahan ke dalam repository lokal setelah ditambahkan ke staging area.
+-git push → digunakan untuk mengunggah perubahan dari repository lokal ke repository remote.
+-git checkout → digunakan untuk berpindah ke branch lain atau versi tertentu dari kode.
+
+4.Jelaskan perbedaan antara GitHub dan GitLab
+
+Jawaban: GitHub adalah platform berbasis cloud untuk menyimpan dan mengelola kode, lebih populer untuk proyek open-source dan kolaborasi tim. GitLab, selain berbasis cloud, juga bisa self-hosted, memiliki CI/CD bawaan, serta fitur manajemen proyek dan keamanan yang lebih lengkap. Singkatnya GitHub lebih sederhana dan murah, sedangkan GitLab lebih fleksibel dan kaya fitur DevOps.
+
+5.Apa bedanya variable user dengan variable system ?
+
+Jawaban :Variable User bersifat personal dan hanya mempengaruhi akun pengguna tertentu Sedangkan
+Variable System berlaku untuk seluruh sistem dan semua akun pengguna.
+
+6.Apa persamaan variable system dengan variable constant ?
+
+Jawaban:
+1. Digunakan untuk Konfigurasi,Keduanya digunakan untuk menyimpan nilai yang memengaruhi sistem atau program.
+2. Dapat Bersifat Global,Variable System berlaku untuk semua user dalam sistem.
+Variable Constant sering digunakan sebagai nilai tetap yang dapat diakses oleh seluruh program.
+3. Menjaga Konsistensi,Keduanya membantu dalam menjaga stabilitas sistem atau program dengan mengatur nilai yang tidak sering berubah.
