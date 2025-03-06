@@ -10,11 +10,11 @@
 </head>
 
 <?php
-require_once "data-form--regis.php"
+require_once "data-form-regis.php"
 ?>
 
 <body style="font-size: 18px;">
-    <form method="POST" action="hasil-form--regis.php" class="container mt-5">
+    <form method="POST" action="hasil-form-regis.php" class="container mt-5">
         <fieldset class="border border-dark p-3 rounded" style="background-color: lightyellow;">
             <legend class="float-none w-auto px-3 fw-bold h3">Form Registrasi IT Club Data Science</legend>
             <div class="form-group row">
@@ -26,7 +26,7 @@ require_once "data-form--regis.php"
                                 <i class="fa fa-adn"></i>
                             </div>
                         </div>
-                        <input id="nim" name="nim" placeholder="*0110622087" type="text" class="form-control" required="required" pattern="[0-9]{10}" title="NIM harus 10 digit angka">
+                        <input id="nim" name="nim" placeholder="*0110124141" type="text" class="form-control" required="required" pattern="[0-9]{10}" title="NIM harus 10 digit angka">
                     </div>
                 </div>
             </div>
@@ -39,7 +39,7 @@ require_once "data-form--regis.php"
                                 <i class="fa fa-address-book"></i>
                             </div>
                         </div>
-                        <input id="nama_lengkap" name="nama_lengkap" placeholder="*Budi Santoso" type="text" class="form-control" required="required" maxlength="50" minlength="3">
+                        <input id="nama_lengkap" name="nama_lengkap" placeholder="*Ulan" type="text" class="form-control" required="required" maxlength="50" minlength="3">
                     </div>
                 </div>
             </div>

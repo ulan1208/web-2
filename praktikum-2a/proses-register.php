@@ -1,9 +1,9 @@
 <?php
 if (!isset($_POST['submit'])){
-    header("Location: form--registrasi.php");
+    header("Location: form-registrasi.php");
     exit;
   }
-require_once "data-form--regis.php";
+require_once "data-form-regis.php";
 
 $nim = $_POST["nim"];
 $nama = $_POST["nama_lengkap"];
