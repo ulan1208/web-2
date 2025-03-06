@@ -26,7 +26,7 @@ require_once "data-form--regis.php"
                                 <i class="fa fa-adn"></i>
                             </div>
                         </div>
-                        <input id="nim" name="nim" placeholder="*0110622087" type="text" class="form-control" required="required" pattern="[0-9]{10}" title="NIM harus 10 digit angka">
+                        <input id="nim" name="nim" placeholder="*0110124141" type="text" class="form-control" required="required" pattern="[0-9]{10}" title="NIM harus 10 digit angka">
                     </div>
                 </div>
             </div>
